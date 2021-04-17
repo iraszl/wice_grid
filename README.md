@@ -70,7 +70,7 @@ Continue reading for more information or check out our [CHANGELOG](https://githu
 ## Requirements and Rails versions
 
 ```
-# Rails => 5
+# Rails 5 / Rails 6.1
 gem 'wice_grid'
 
 # Rails 4
