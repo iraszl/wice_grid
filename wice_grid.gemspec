@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.date          = '2018-11-28'
 
-  s.add_dependency 'rails', '~> 5.0', '< 5.3'
-  s.add_dependency 'kaminari',          ['~> 1.2.1']
+  s.add_dependency 'rails', '>= 5.0'
+  s.add_dependency 'kaminari',          ['~> 1.1.0']
   s.add_dependency 'coffee-rails',      ['> 3.2']
 
   s.add_development_dependency('rake',  '~> 10.1')
@@ -26,9 +26,9 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec', '~> 3.6.0')
   s.add_development_dependency('rspec-rails', '~> 3.6.0')
   s.add_development_dependency('shoulda-matchers', '2.8.0')
-  s.add_development_dependency('capybara', '~> 3.13.2')
+  s.add_development_dependency('capybara', '~> 2.2.0')
   s.add_development_dependency('faker', '~> 1.8.7')
-  s.add_development_dependency('poltergeist', '~> 1.18.0')
+  s.add_development_dependency('poltergeist', '~> 1.9.0')
   s.add_development_dependency('capybara-screenshot', '~> 1.0.11')
   s.add_development_dependency('selenium-webdriver', '~> 2.51.0')
 
